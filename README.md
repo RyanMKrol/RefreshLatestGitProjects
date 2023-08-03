@@ -9,15 +9,16 @@ I found that when I was cleaning up my repositories in GitHub and archiving proj
 1. Update the README to provide a reason for deprecation
 1. Put the repo into public archive mode
 
-The problem with this, is that by providing one last commit, these super old projects are now the first thing you see on my profile when you head to my list of repos.
+The problem with this is that by providing one last commit, these super old projects are now the first thing you see on my profile when you head to my list of repos.
 
-Rather than go through every non-archived repo I have, and provide a dummy commit to put the projects back in some order of relevancy, I've created this script to do it for me!
+Rather than go through every non-archived repo I have, and creating a dummy commit to put the projects back in some order of relevancy, I've created this script to do it for me!
 
 ## How?
 
 The script is pretty simple, you can run it by doing the following:
 
 1. `git clone https://github.com/RyanMKrol/RefreshLatestGitProjects`
+1. `cd RefreshLatestGitProjects`
 1. `npm install`
 1. `npm run run:script -- -p ProjectNameA ProjectNameB ProjectNameC ProjectNameEtc`
 
