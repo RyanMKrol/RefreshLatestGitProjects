@@ -23,6 +23,10 @@ projectList.forEach((projectName) => {
     shell.exit(1);
   }
 
+  if (shell.exec('git push').code !== 0) {
+    shell.echo('Error: Git commit failed');
+    shell.exit(1);
+  }
+
   shell.echo(`Added empty commit for project: ${projectName}`);
-  shell.exit(1);
 });
