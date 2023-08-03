@@ -1,0 +1,29 @@
+{
+  "name": "refreshlatestgitprojects",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "lint": "eslint src",
+    "run:script": "npm run lint && node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RyanMKrol/RefreshLatestGitProjects.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RyanMKrol/RefreshLatestGitProjects/issues"
+  },
+  "homepage": "https://github.com/RyanMKrol/RefreshLatestGitProjects#readme",
+  "devDependencies": {
+    "eslint": "^8.46.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.28.0"
+  },
+  "dependencies": {
+    "shelljs": "^0.8.5",
+    "yargs": "^17.7.2"
+  }
+}
