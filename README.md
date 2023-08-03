@@ -15,12 +15,14 @@ Rather than go through every non-archived repo I have, and creating a dummy comm
 
 ## How?
 
-The script is pretty simple, you can run it by doing the following:
+Running the script is pretty simple, you can run it by doing the following:
 
 1. `git clone https://github.com/RyanMKrol/RefreshLatestGitProjects`
 1. `cd RefreshLatestGitProjects`
 1. `npm install`
 1. `npm run run:script -- -p ProjectNameA ProjectNameB ProjectNameC ProjectNameEtc`
+
+Once the script has finished running, each of the projects you've specified will have a blank commit with the title "Blank Update".
 
 For this script to work, your directory structure **MUST** look like the following:
 
