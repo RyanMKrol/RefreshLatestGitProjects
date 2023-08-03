@@ -4,7 +4,7 @@ This is a neat little script that will push an update to any Github project you 
 
 ## Why?
 
-I found that when I was doing a clean up of my repositories in GitHub, I'd typically do the following:
+I found that when I was cleaning up my repositories in GitHub and archiving projects that were no longer active, I'd typically do the following:
 
 1. Update the README to provide a reason for deprecation
 1. Put the repo into public archive mode
